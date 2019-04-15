@@ -17,7 +17,7 @@ public class Main extends Application {
 			this.primaryStage.setTitle("PrimerEjemplo JavaFX");
 // Load root layout from fxml file.
 			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(Main.class.getResource("DocumentoFXMLPrueba.fxml"));
+			loader.setLocation(Main.class.getResource("DialgoBoxes.fxml"));
 			rootLayout = (AnchorPane) loader.load();
 			// Show the scene containing the root layout.
 			Scene scene = new Scene(rootLayout);
