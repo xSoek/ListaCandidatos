@@ -48,23 +48,20 @@ public class MyController {
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Resultado");
 		alert.setHeaderText("");
-		alert.setContentText("Summer has come");
+		alert.setContentText("Summer has come... ");
 		alert.showAndWait();
 	}else if((otono.compareTo(hoy)==0 ||(otono.compareTo(hoy)<0)) && invierno.compareTo(hoy)>0) {
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Resultado");
 		alert.setHeaderText("");
-		alert.setContentText("ILLO AUN QUEDA MUXO\n deja ya de preguntar que estamos en otoño");
+		alert.setContentText("Summer has passed... ");
 		alert.showAndWait();
 	}else if((invierno.compareTo(hoy)==0 ||(invierno.compareTo(hoy)<0)) && primavera.compareTo(hoy)>0) {
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Resultado");
 		alert.setHeaderText("");
-		alert.setContentText("Que pesao, aun queda, estamos en invierno");
+		alert.setContentText("Stop asking please, we are in winter");
 		alert.showAndWait();
 	}
-	
-	
-	
 	}
 }
